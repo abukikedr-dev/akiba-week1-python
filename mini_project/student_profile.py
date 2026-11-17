@@ -1,0 +1,30 @@
+# MINI PROJECT — STUDENT PROFILE SYSTEM
+
+# Collect student information
+full_name = input("Enter Full Name: ")
+student_id = input("Enter Student ID: ")
+age = int(input("Enter Age: "))
+city = input("Enter City: ")
+university = input("Enter University: ")
+department = input("Enter Department: ")
+email = input("Enter Email: ")
+phone_number = input("Enter Phone Number: ")
+favorite_language = input("Enter Favorite Programming Language: ")
+programming_goal = input("Enter Programming Goal: ")
+
+# Display the professional profile
+print("\n" + "=" * 48)
+print("AKIBA STUDENT PROFILE")
+print("=" * 48)
+print(f"Name: {full_name}")
+print(f"Student ID: {student_id}")
+print(f"Age: {age}")
+print(f"City: {city}")
+print(f"University: {university}")
+print(f"Department: {department}")
+print(f"Email: {email}")
+print(f"Phone: {phone_number}")
+print(f"Favorite Language: {favorite_language}")
+print("Programming Goal:")
+print(programming_goal)
+print("=" * 48)
